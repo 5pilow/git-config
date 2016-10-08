@@ -1,3 +1,23 @@
+# Config
+
+```
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  lg = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  pr = pull --rebase
+  pf = push --force-with-lease
+  ri = rebase -i
+  rc = rebase --continue
+  rs = rebase --skip
+  ra = rebase --abort
+  sur = submodule update --recursive
+```
+
 # Git cheatsheet
 
 ### Initialization
@@ -30,24 +50,4 @@ git config user.email "email@example.com"
 Clean .orig files:
 ```
 git clean -f 
-```
-
-# Config
-
-```
-[alias]
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  lg = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
-  pr = pull --rebase
-  pf = push --force-with-lease
-  ri = rebase -i
-  rc = rebase --continue
-  rs = rebase --skip
-  ra = rebase --abort
-  sur = submodule update --recursive
 ```
