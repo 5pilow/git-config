@@ -18,7 +18,7 @@
   sur = submodule update --recursive
 ```
 
-# Git cheatsheet
+# Cheatsheet
 
 ### Initialization
 ```
