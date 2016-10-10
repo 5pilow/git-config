@@ -27,6 +27,12 @@ git clone https://github.com/5pilow/git-config-cheatsheet.git
 git remote add origin https://github.com/5pilow/git-config-cheatsheet.git
 ```
 
+### Changes
+```
+git reset HEAD path/to/file.txt     // reset unstaged change
+git checkout -- path/to/file.txt    // discard staged change
+```
+
 ### Stashes
 ```
 git stash
