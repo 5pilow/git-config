@@ -31,7 +31,8 @@ git remote add origin https://github.com/5pilow/git-config-cheatsheet.git
 ```
 git stash
 git stash list
-git stash pop 0
+git stash pop
+git stash pop stash@{0}
 ```
 
 ### Patches
