@@ -15,6 +15,7 @@
   rc = rebase --continue
   rs = rebase --skip
   ra = rebase --abort
+  mt = mergetool
   sur = submodule update --recursive
 ```
 
