@@ -44,9 +44,9 @@ git stash pop stash@{0}
 
 ### Patches
 ```
-git format-patch -1 HEAD
-git am --signoff 0001-path-blablabla.patch
-git apply --reject 0001-path-blablabla.patch
+git format-patch -1 HEAD                       // Create a patch with the last commit
+git am --signoff 0001-path-blablabla.patch     // Try to apply the patch
+git apply --reject 0001-path-blablabla.patch   // If there are conflicts, apply possible modifications
 ```
 
 ### Config
