@@ -17,6 +17,8 @@
   ra = rebase --abort
   mt = mergetool
   sur = submodule update --recursive
+  pa = pull --all
+  fa = fetch --all
 ```
 
 # Cheatsheet
