@@ -34,6 +34,12 @@ git reset HEAD path/to/file.txt     // reset unstaged change
 git checkout -- path/to/file.txt    // discard staged change
 ```
 
+### Rebase
+```
+git rebase -i HEAD~2                // 2 last commits
+git rebase -i <SHA-1>               // From a specific commit
+```
+
 ### Stashes
 ```
 git stash
