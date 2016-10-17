@@ -19,6 +19,7 @@
   sur = submodule update --recursive
   pa = pull --all
   fa = fetch --all
+  cb = checkout -b
 ```
 
 # Cheatsheet
