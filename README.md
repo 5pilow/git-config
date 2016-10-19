@@ -69,3 +69,8 @@ Clean .orig files:
 ```
 git clean -f 
 ```
+Cancel operation(s):
+```
+git reflog
+git reset --hard HEAD@{9}
+```
