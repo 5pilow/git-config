@@ -43,6 +43,7 @@ git checkout -- path/to/file.txt    // discard staged change
 ```
 git checkout -b new_branch
 git branch -d branch_to_delete
+git branch -D branch_to_delete_brutally
 ```
 
 ### Rebase
