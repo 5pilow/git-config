@@ -39,6 +39,12 @@ git reset HEAD path/to/file.txt     // reset unstaged change
 git checkout -- path/to/file.txt    // discard staged change
 ```
 
+### Branches
+```
+git checkout -b new_branch
+git branch -d branch_to_delete
+```
+
 ### Rebase
 ```
 git rebase -i HEAD~2                // 2 last commits
