@@ -20,6 +20,7 @@
   pa = pull --all
   fa = fetch --all
   cb = checkout -b
+  me = merge --no-ff
 ```
 
 # Cheatsheet
