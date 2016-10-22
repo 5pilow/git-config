@@ -21,6 +21,7 @@
   fa = fetch --all
   cb = checkout -b
   me = merge --no-ff
+  cp = cherry-pick
 ```
 
 # Cheatsheet
