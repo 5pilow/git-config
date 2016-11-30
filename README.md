@@ -22,6 +22,7 @@
   cb = checkout -b
   me = merge --no-ff
   cp = cherry-pick
+  fp = format-patch
 ```
 
 # Cheatsheet
