@@ -74,6 +74,11 @@ git config user.name "Foo Bar"
 git config user.email "email@example.com"
 ```
 
+### Search
+```
+git log --all --full-history -- **/some_file.*
+```
+
 ### Utilities
 Clean .orig files:
 ```
