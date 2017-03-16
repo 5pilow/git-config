@@ -23,6 +23,7 @@
   me = merge --no-ff
   cp = cherry-pick
   fp = format-patch
+  dlc = reset --hard HEAD~
 ```
 
 # Cheatsheet
@@ -51,6 +52,7 @@ git branch -D branch_to_delete_brutally
 ```
 git rebase -i HEAD~2                // 2 last commits
 git rebase -i <SHA-1>               // From a specific commit
+git dlc                             // Delete last commit
 ```
 
 ### Stashes
