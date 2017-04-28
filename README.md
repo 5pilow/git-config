@@ -24,6 +24,7 @@
   cp = cherry-pick
   fp = format-patch
   dlc = reset --hard HEAD~
+  cf = clean -f
 ```
 
 # Save encrypted credentials (linux)
