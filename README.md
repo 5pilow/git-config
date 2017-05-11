@@ -71,6 +71,11 @@ git stash pop
 git stash pop stash@{0}
 ```
 
+### Commits
+```
+git reset --hard HEAD~15      // Delete last 15 commits
+```
+
 ### Patches
 ```
 git format-patch -1 HEAD                       // Create a patch with the last commit
