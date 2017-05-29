@@ -25,7 +25,7 @@
   fp = format-patch -k
   dlc = reset --hard HEAD~
   cf = clean -f
-  ak = am -k
+  ak = am -k --ignore-date
 ```
 Shell aliases
 ```
