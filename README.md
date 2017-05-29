@@ -22,9 +22,10 @@
   cb = checkout -b
   me = merge --no-ff
   cp = cherry-pick
-  fp = format-patch
+  fp = format-patch -k
   dlc = reset --hard HEAD~
   cf = clean -f
+  ak = am -k
 ```
 
 # Save encrypted credentials (linux)
