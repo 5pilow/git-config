@@ -27,6 +27,11 @@
   cf = clean -f
   ak = am -k
 ```
+Shell aliases
+```
+alias gg='git gui'
+alias gk='gitk'
+```
 
 # Save encrypted credentials (linux)
 ```
