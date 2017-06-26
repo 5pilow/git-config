@@ -66,6 +66,7 @@ git branch -D branch_to_delete_brutally
 ```
 git rebase -i HEAD~2                // 2 last commits
 git rebase -i <SHA-1>               // From a specific commit
+git rebase -i --root                // Rebase from the first commit
 git dlc                             // Delete last commit
 ```
 
