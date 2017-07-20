@@ -26,6 +26,7 @@
   dlc = reset --hard HEAD~
   cf = clean -f
   ak = am -k --ignore-date
+  delete-branch = "!f() { git branch -D $1 && git push origin --delete $1; }; f"
 ```
 Shell aliases
 ```
