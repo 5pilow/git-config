@@ -27,6 +27,7 @@
   cf = clean -f
   ak = am -k --ignore-date
   delete-branch = "!f() { git branch -D $1 && git push origin --delete $1; }; f"
+  ccd = !test $(find . -name "*.patch" | wc -l) -eq 0 && git fp HEAD -$1 && git reset --hard HEAD~$1 && git ak *.patch && rm *.patch && :
 ```
 Shell aliases
 ```
